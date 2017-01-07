@@ -1,0 +1,218 @@
+/*
+* @Author: QCF
+* @Date:   2016-12-20 14:07:43
+* @Last Modified by:   QCF
+* @Last Modified time: 2016-12-21 09:38:04
+*/
+ body{
+        background-color: #f7f7f7;
+    }
+    .box {
+        background-color: #FFD52B;
+     /*    border: 1px solid black; */
+        height: 80px;
+        width: 100%;
+    }
+    
+    ul {
+        width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 77px;
+    }
+    
+    ul>li {
+        list-style: none;
+        float: left;
+        margin-left: 10px;
+        height: 77px;
+        font-size: 20px;
+        color: #7A4624;
+       
+    }
+    ul>li>a{
+        display: inline-block;
+         height: 80px;
+         width: 100%;
+         text-decoration: none;
+         color: #7A4624; 
+          font-size: 20px;
+
+    }
+ 
+
+    li+li a:hover{
+     /*    display: inline-block; */
+        height: 80px;
+        width: 100%;
+        color: #330000;
+        background-color: #FFE36F;
+        /* border-bottom: 3px solid #7A4624; */
+    }
+     li+li a:focus{
+    /*     display: inline-block; */
+        height: 77px;
+        width: 100%;
+        color: #330000;
+        background-color: #FFE36F;
+        border-bottom: 3px solid #7A4624;
+        
+    }
+  
+ 
+    li+li {
+        width: 50px;
+    }
+    
+    .third {
+        width: 80px;
+    }
+    
+    .box ul .li1 {
+        width: 208px;
+        height: 79px;
+        background-image: url('../img/icongroup.png');
+        background-position: 0 0;
+    }
+    
+    .last {
+        float: right;
+    }
+   
+  
+  
+     
+  #container{
+      width: 980px;
+      margin: 0 auto;
+     /*  border: 1px solid black; */
+    /*  position: relative; */
+
+}
+.QB{
+    width: 640px;
+    margin-bottom: 15px;
+    background: #fff;
+    padding: 10px;
+
+}
+  .author,.article,.stats{
+   
+  margin: 20px 0px;
+  width: 640px;
+
+   }
+.Avatar{
+          display: inline-block;
+      }
+   .Avatar img{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+   
+   }
+  .author a{
+     display: inline-block;
+     height: 30px;
+     line-height: 30px;
+     text-decoration: none;
+     vertical-align: top;
+   }
+  
+.stats span{
+    margin-right: 10px;
+}
+.SUB{
+  height:24px;
+  width:200px;
+display:inline-block;
+
+}
+.SAB
+{
+  height:24px;
+  width:200px;
+
+   margin-left:220px;
+ display:inline-block;
+}
+.QB i{
+display:inline-block;
+width:24px;
+height:24px;
+margin-left:20px;
+
+}
+.SUB .i-smile{
+  background-image:url('../img/icongroup.png');
+  background-position: 0px -199px;
+}
+.SUB .i-cry{
+  background-image:url('../img/icongroup.png');
+  background-position: 0px -223px;
+}
+.SUB .i-talk{
+  background-image:url('../img/icongroup.png');
+  background-position: 0px -176px;
+}
+.SAB .i-wx{
+  background-image:url('../img/icongroup.png');
+  background-position: 0px -80px;
+}
+.SAB .i-qq{
+  background-image:url('../img/icongroup.png');
+  background-position: 0px -152px;
+}
+
+.SAB .i-ozne{
+  background-image:url('../img/icongroup.png');
+  background-position: 0px -128px;
+}
+.SAB .i-wb{
+  background-image:url('../img/icongroup.png');
+  background-position: 0px -104px;
+}
+.Goto{
+    width: 980px;
+    margin: 20px auto;
+}
+.Goto button{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+      border: 0px;
+     outline: none;
+
+
+}
+ .Goto .first{
+     background-color: #FFAA14;
+}
+.Goto .Last{
+    width: 100px;
+    background: #FFAA14;
+    color: #fff;
+    border: 0px;
+    outline: none;
+}
+.boxT{
+   width: 980px;
+      margin: 0 auto;
+  position:relative;
+} 
+
+.IMG{
+height: 900px;
+width: 340px;
+
+position: absolute;
+left: 720px;
+top: -12px;
+}
+.IMG img{
+    width: 340px;
+    }
+.IMG .Qimg{
+  height:50px;
+}
